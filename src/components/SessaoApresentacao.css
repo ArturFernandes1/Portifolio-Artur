@@ -1,0 +1,86 @@
+/* Estilos Gerais */
+.compfond {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    justify-content: center;
+    padding-top: 25px;
+    flex-wrap: wrap; /* Adiciona quebra de linha em telas menores */
+}
+
+.img-avatar {
+    width: 100%;
+    max-width: 500px; /* Define um limite máximo para a largura da imagem */
+    height: 450px; /* Mantém a proporção da imagem */
+}
+
+.hello {
+    width: 30px;
+}
+
+.parte-apresentacao {
+    padding: 70px;
+    width: 100%;
+    max-width: 650px; /* Define um limite máximo para a largura */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+.frase-ola {
+    color: rgb(30, 63, 210);
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.frase-interativa {
+    font-size: 45px;
+    color: rgb(30, 63, 210);
+    margin-bottom: 10px;
+
+}
+
+.parte-apresentacao p {
+    color: #4B5563;
+    line-height: 30px;
+}
+
+/* Media Queries para Responsividade */
+
+/* Telas menores que 768px (tablets e dispositivos móveis) */
+@media (max-width: 768px) {
+    .compfond {
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 15px;
+    }
+    
+    .parte-apresentacao {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .frase-ola, .frase-interativa {
+        font-size: 28px;
+    }
+}
+
+/* Telas menores que 480px (smartphones) */
+@media (max-width: 480px) {
+    .compfond{
+        margin-top: 20px;
+    }
+    .img-avatar {
+        max-width: 400px;
+    }
+
+    .parte-apresentacao {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .frase-ola, .frase-interativa {
+        font-size: 24px;
+    }
+}
