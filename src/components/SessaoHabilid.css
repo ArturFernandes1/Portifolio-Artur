@@ -1,5 +1,6 @@
 
 #titleh1 {
+    font-family: 'Jeju Hallasan', cursive;
     font-size: 27px;
     text-align: center;
     color: #1E3FD2;
@@ -7,6 +8,7 @@
 }
 
 #textop {
+    font-family: 'Jeju Hallasan', cursive;
     text-align: center;
     margin-bottom: 20px;
     color: #4B5563;
@@ -32,18 +34,21 @@
     box-shadow: 14px 8px 22px 2px rgb(109, 109, 109); /* Adiciona sombra */
 }
 .conteudo-principal {
+    
     text-align: left;
     line-height: 26px;
 }
 
 #text-sobre h1 {
     color: #1E3FD2;
+    font-family: 'Jeju Hallasan', cursive;
     font-size: 28px;
     margin-bottom: 15px;
 }
 
 #text-sobre p {
     color: #4B5563;
+    font-family: 'Jeju Hallasan', cursive;
 }
 
 .conteudo-conhecimento {

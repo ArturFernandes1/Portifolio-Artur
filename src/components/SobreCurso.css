@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-sobrec{
+    display: flex;
+    max-width: 1040px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 35px;
+    padding: 45px;
+    border-radius: 8px;
+    box-shadow: 14px 8px 22px 2px rgb(218, 217, 217); /* Adiciona sombra */
+
+}
+.img-global{
+    max-width: 580px;
+    max-height: 500px;
+    padding: 20px;
+
+}
+section{
+    max-width: 500px;
+}
+.container-sobrec h1{
+    font-family: 'Jeju Hallasan', cursive;
+    color: #2D74FD;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: normal;
+}
+.texto-sobre-curso{
+    color: #000;
+    text-align: center;
+    font-family: 'Jeju Hallasan', cursive;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+@media screen and (max-width: 768px) {
+    .container-sobrec{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+    }
+    .container-sobrec h1{
+        font-size: 20px;
+    }
+    .texto-sobre-curso{
+        margin: 12px;
+
+    }
+    
+}

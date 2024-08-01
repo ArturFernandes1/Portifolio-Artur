@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar"
 import SessaoApresentacao from '../components/SessaoApresentacao';
 import SessaoHabilid from '../components/SessaoHabilid';
 import Footer from '../components/Footer';
+import SobreCurso from '../components/SobreCurso';
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
       <Navbar/>
       <SessaoApresentacao/>
       <SessaoHabilid/>
+      <SobreCurso/>
       <Footer/>
     </>
   );
